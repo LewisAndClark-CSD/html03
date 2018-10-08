@@ -69,9 +69,22 @@
 	}
 	section#rightColumn > nav.horizontalNavigation li {
 		width: 25%;
-		
+	}
 
 
 
 /* Footer Styles */
+	footer {
+		background-color: rgb(71, 52, 29);
+		clear: left;
+		
+	}
+	footer > nav.horizontalNavigation {
+		float: left;
+		width: 22%;
+	}
+	footer > section#contactInfo {
+		float: left;
+		width: 34%;
+	}
 
