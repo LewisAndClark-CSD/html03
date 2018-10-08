@@ -37,8 +37,6 @@ body > header > nav.horizontalNavigation li {
 }
 
 
-
-
 /* Horizontal Navigation Styles */
 
 nav.horizontalNavigation li {
@@ -58,6 +56,7 @@ section#leftColumn {
 	clear: left;
 	float: left;
 	width: 33%;
+	padding: 1.5em;
 }
 
 
@@ -69,8 +68,28 @@ section#rightColumn {
 	width: 67%;
 }
 
+section#rightColumn img {
+	display: block;
+	width: 100%;
+}
 
+section#rightColumn > nav.horizontalNavigation li {
+	width: 25%;
+}
 
 
 /* Footer Styles */
 
+footer {
+	clear: left;
+}
+
+footer > nav.verticalNavigation {
+	float: left;
+	width: 22%;
+}
+
+footer > section#contactInfo {
+	float: left;
+	width: 34%;
+}
