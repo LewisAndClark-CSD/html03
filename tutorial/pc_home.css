@@ -79,6 +79,11 @@
 		clear: left;
 		
 	}
+	footer::after {
+		clear: both;
+		content:"";
+		display: table;
+	}
 	footer > nav.horizontalNavigation {
 		float: left;
 		width: 22%;
