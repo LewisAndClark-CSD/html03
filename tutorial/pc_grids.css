@@ -43,3 +43,7 @@ div[class^="col-"] {
 
 /* Grid Outline Styles */
 
+div {
+	outline:1px solid red;
+}
+	
