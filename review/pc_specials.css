@@ -1,0 +1,55 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Review Assignment
+   
+   Style Sheet for the Pandaisia Chocolates Monthly Specials
+   Author: Cameron Odom, Zac Fredrick
+   Date:   10/9/18
+   
+   Filename: pc_specials.css
+
+*/
+
+/* Page Body Styles */
+
+body {
+    width: 95%;
+    max-width: 960px; 
+    min-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Styles */
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav > 
+
+/* Row Styles */
+
+
+
+
+/* Column Styles */
+
+
+
+
+/* Specials Styles */
+
+
+
+/* Award Styles */
+
+
+
+/* Footer Styles */
+
