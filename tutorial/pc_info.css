@@ -46,25 +46,50 @@ div#info2 {
 
 /* Third Infographic */
 
+div#info3 {
+	display:block;
+	top:135 px;
+	left:75%;
+}
 
 
 /* Fourth Infographic */
 
-
+diiv#info4 {
+	display:block;
+	top: 510px;
+	left: 8%;
+}
 
 /* Fifth Infographic */
 
-
+div#info5 {
+	display:block;
+	top:800 px;
+	left:3%;
+}
 
 /* Sixth Infographic */
 
-
+div#info6 {
+	display:block;
+	top:600 px;
+	left: 48%;
+}
 
 /* Seventh Infographic */
 
-
+div#info7 {
+	display:block;
+	top: 1000 px;
+	left: 68%;
+}
 
 /* Eighth Infographic */
 
 
-
+div#info8 {
+	display: block;
+	top: 1100 px;
+	left:12%;
+}
