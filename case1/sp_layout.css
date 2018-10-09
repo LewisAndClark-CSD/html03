@@ -33,9 +33,6 @@ header, ul, nav, li, a {
 }
 
 /* Row Styles */
-.row {
-	clear: both;
-}
 
 .row ::after {
 	clear: both;
@@ -45,39 +42,25 @@ header, ul, nav, li, a {
 
 /* Page Header Styles */
 
-header img {
-	display: block;
-	width: 70%;
-	float: left;
-}
-
-header nav {
+header nav ul li {
 	float: left;
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 30%;
 }
 
-header nav a {
+/* Image Styles*/
+
+header > img {
 	display: block;
-	width: 100%;
-	background-color: lime;
+	width: 70%;
+	float: left;
 }
+
 
 /* Horizontal Navigation List Styles */
 
-nav.horizontal {
-	display: block;
-	width: 100%;
-	float: left;
-	background-color: lime;
-}
 
-nav.horizontal li {
-	display: block;
-	float: left;
-	width: 12.5%;
-}
 
 /* Topics Styles */
 
@@ -89,11 +72,11 @@ ul#topics  li{
 	margin-right: 1.5%;
 }
 
-ul#topics li::first-of-type {
+ul#topics li:first-of-type {
 	margin-left: 7.75%;
 }
 
-ul#topics li::last-of-type {
+ul#topics li:last-of-type {
 	margin-right: 7.75%;
 }
 
