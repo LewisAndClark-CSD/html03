@@ -4,16 +4,23 @@
    Tutorial Case
    
    Positioning Styles for the pc_info.html file
-   Author: 
-   Date:   
+   Author: Morgan and Bethany
+   Date:   10/9/18
    
    Filename: pc_info.css
 
 */
 
+div.infobox {
+	display: none;
+}
 
 /* Main Styles */
-
+main {
+	position: relative;
+	height: 1400 px;
+	width: 100%;
+}
 
 
 /* Infographic Styles */
