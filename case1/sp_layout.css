@@ -34,7 +34,7 @@ header, ul, nav, li, a {
 
 /* Row Styles */
 
-.row ::after {
+.row::after {
 	clear: both;
 	content: "";
 	display: table;
@@ -47,6 +47,9 @@ header nav ul li {
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 30%;
+	padding-bottom: 1%;
+	padding-top: 1%
+
 }
 
 /* Image Styles*/
@@ -60,7 +63,11 @@ header > img {
 
 /* Horizontal Navigation List Styles */
 
-
+nav.horizontal ul li {
+	float: left;
+	width: 12.5%;
+	display: block;
+}
 
 /* Topics Styles */
 
