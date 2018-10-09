@@ -11,10 +11,9 @@
 
 */
 
+div.infobox {display: none;}
 
 /* Main Styles */
-
-div.infobox {display: none;}
 
 main {
 	position:relative;
@@ -22,18 +21,28 @@ main {
 	width:100%;
 }
 
-
 /* Infographic Styles */
 
+div.infobox {
+	position:absolute;
+}
 
 
 /* First Infographic */
 
-
+div#info1 {
+	display:block;
+	top:20px;
+	left:5%;
+}
 
 /* Second Infographic */
 
-
+div#info2 {
+	display:block;
+	top:185px;
+	left:42%;
+}
 
 /* Third Infographic */
 
