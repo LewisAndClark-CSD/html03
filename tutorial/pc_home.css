@@ -77,7 +77,7 @@ footer {
 	clear: left;
 }
 
-footer > nav.horizontalNavigation {
+footer > nav.verticalNavigation {
 	float: left;
 	width: 22%;
 }
