@@ -6,15 +6,17 @@
    Tutorial Case
    
    Reset Style Sheet for the Pandaisia Chocolates Website
-   Author: 
-   Date:   
+   Author: Connor Gray, Peter Classen
+        Date:   10/8/18
    
    Filename: pc_reset.css
 
 */
 
 /* Structural Styles */
-
+Article, aside, figcaption, figure, footer, header, main, nav, section {
+	display : blocked;
+}
 
 
 
