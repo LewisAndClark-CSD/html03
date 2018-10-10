@@ -18,6 +18,7 @@ div.row {
   clear: both;
   width: 100%;
   content: "";
+  display: table;
 }
 
 /* Grid Columns Styles */
