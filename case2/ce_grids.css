@@ -17,9 +17,8 @@
 div.row {
   clear: both;
   width: 100%;
+  content: "";
 }
-
-
 
 /* Grid Columns Styles */
 div[class^="column"], div[class*=" column"] {
@@ -37,14 +36,6 @@ div.column25 {width: 25%;}
 div.column20 {width: 20%;}
 
 /* Grid Spacing Styles */
-div.container {
-  box-sizing: border-box;
-}
-
-div.row {
-  box-sizing: border-box;
-}
-
-div.cell a {
+div.container, div.row, div[class^="column"], div.cell, div.cell a {
   box-sizing: border-box;
 }
