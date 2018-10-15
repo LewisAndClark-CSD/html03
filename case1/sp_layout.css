@@ -36,7 +36,7 @@ body {
 
 
 /* Row Styles */
-ul.row: :after {
+.row::after {
 	clear:  both;
 	content:  "";
 	display: table;
@@ -44,25 +44,25 @@ ul.row: :after {
 
 
 /* Page Header Styles */
-body header {
+body > header > img {
 	display: block;
 	width: 70%;
 	float: left;
 }
 
-body header nav {
+body > header > nav {
 	float: left;
 	padding-left: 2%;
 	padding-right: 2%;
 	width: 30%;
 }
 	
-header nav a {
+body > header > nav a {
 	display: block;
 	width: 100%;
 }
 /* Horizontal Navigation List Styles */
-nav.horizontal {
+nav.horizontal li{
 	display: block;
 	width: 12.5%;
 	float: left;
@@ -70,7 +70,7 @@ nav.horizontal {
 
 
 /* Topics Styles */
-ul#topics {
+ul#topics li{
 	display: block;
 	width: 20%;
 	float: left;
@@ -78,19 +78,53 @@ ul#topics {
 	margin-right:1.5%;
 }
 
+ul#topics li:first-of-type{
+	margin-left: 7.75%;
+}
 
+ul#topics li:last-of-type {
+	margin-right: 7.75%;
+}
 
-
-
+ul#topics img {
+	width: 50%;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* HR Styles */
-
-
+hr {
+	width: 50%;
+}
 
 
 /* Customer Comment Styles */
-
-
+ul#comments {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+ul#comments li {
+	display: block;
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+ul#comments li img{
+	width: 20%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+	ul#comments li p{
+float: left;
+width: 70%;
+}
 
 /* Footer Styles */
-
+footer{
+	clear:  both;
+}
 
