@@ -16,8 +16,8 @@
 /* Grid Rows Styles */
 
 div.row {
-	clear:both;
 	width:100%;
+	clear:both;
 }
 
 div.row::after {
@@ -26,11 +26,9 @@ div.row::after {
 	display: table;
 }
 
-
-
 /* Grid Columns Styles */
 
-div [class^"column"] {
+div [class^="column"] {
 	float: left;
 }
 
@@ -78,3 +76,22 @@ div.column80 {
 
 /* Grid Spacing Styles */
 
+div.container {
+	box-sizing: border-box;
+}
+
+div.row {
+	box-sizing: border-box;
+}
+
+div [class^="column"] {
+	box-sizing: border-box;
+}
+
+div.cell {
+	box-sizing: border-box;
+}
+
+div.cell a {
+	box-sizing: border-box;
+}
