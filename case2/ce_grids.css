@@ -17,6 +17,10 @@
 div.row {
   clear: both;
   width: 100%;
+}
+
+div.row::after {
+  clear: both;
   content: "";
   display: table;
 }
