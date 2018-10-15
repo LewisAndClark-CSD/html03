@@ -124,6 +124,7 @@ article > h1 + p:first-letter {
 }
 
 
+
 /* Aside Styles */
 
 body > aside {
@@ -141,6 +142,10 @@ aside p {
    margin: 20px;
 }
 
+aside {
+    width: 768px;
+    float: left;
+}
 
 /* Interactive Map Styles */
 
@@ -157,3 +162,65 @@ div.mapInfo h2 {
    font-weight: normal;
    padding: 10px 20px;
 }
+
+div#battleMap {
+    width: 678px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+img#mapImage {
+    display: block;
+    width: 100%;
+}
+
+a:link {
+    position: absolute;
+}
+
+a.battleMarkers {
+    position: absolute;
+}
+a#marker1 {
+    top: 220px;
+    left: 340px;
+}
+
+a#marker2 {
+    top: 194px;
+    left: 358px;
+}
+
+a#marker3 {
+    top: 202px;
+    left: 400px;
+}
+
+a#marker4 {
+    top: 217px;
+    left: 452px;
+}
+
+a#marker5 {
+    top: 229px;
+    left: 498px;
+}
+
+a#marker6 {
+    top: 246px;
+    left: 544px;
+}
+
+div.mapInfo {
+    display: none;
+}
+
+a.battleMarkers:hover + div.mapInfo {
+    display: block;
+}
+
+
+
