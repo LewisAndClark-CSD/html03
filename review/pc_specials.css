@@ -4,7 +4,7 @@
    Review Assignment
    
    Style Sheet for the Pandaisia Chocolates Monthly Specials
-   Author: Connor Gray, Peter Classen
+   Author: Liz and Rob
    Date:   10/10/18
    
    Filename: pc_specials.css
@@ -43,7 +43,7 @@ div.newrow: :after {
 	width: 100%;
 	clear: both;
 }
-div.newrow: :after {
+div.newrow::after {
 	clear: both;
 	content: "";
 	display: table;
