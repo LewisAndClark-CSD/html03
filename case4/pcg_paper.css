@@ -6,11 +6,18 @@
    Case Problem 4
 
    Park City Gazette Style Sheet
-   Author: 
-   Date:   
+   Author: E. Ruiz, Joshua Bentley
+   Date: 10/15/18
 
    Filename:         pcg_paper.css
-   Supporting Files: 
+   Supporting Files:
 
 */
 
+/* Body Styles */
+body {
+  max-width: 960px;
+  min-width: 640px;
+  width: 100%;
+  background-color: lime;
+}
