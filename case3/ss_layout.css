@@ -6,8 +6,8 @@
    Case Problem 3
    
    Layout Style Sheet for A Soldier's Scrapbook
-   Author: 
-   Date:   
+   Author: Morgan and Bethany
+   Date:   10/16/18
    
    Filename: ss_layout.css
 
@@ -15,7 +15,10 @@
 
 
 /* Article Styles */
-
+div.row {
+	width: 100%;
+	clear: both;
+}
 
 
 
