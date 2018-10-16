@@ -17,3 +17,7 @@
 
 
 /* Link Styles */
+nav a {
+    list-style-type: none;
+    text-decoration: none;
+}
