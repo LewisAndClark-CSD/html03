@@ -5,16 +5,38 @@
    Case Problem 2
    
    Style Sheet for Costume Expressions Front Page
-   Author: 
-   Date:   
+   Author: Morgan and Bethany
+   Date:   10/16/18
    
    Filename: ce_styles.css
 */
 
 
 /* Window and Body Styles */
+html {
+	background-color: rgb(101, 101, 101);
+}
 
+body {
+	background-color: white;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	min-width: 320px;
+	max-width: 960px;
+}
 
+img {
+	width: 100%;
+	display: block;
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+}
 
 /* Body Header Styles */
 
