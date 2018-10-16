@@ -35,43 +35,43 @@ div[class^="column"] {
 	float: left;
 }
 
-div.col100 {
+div.column100 {
 	width: 100%;
 }
 
-div.col50 {
+div.column50 {
 	width: 50%;	
 }
 
-div.col33 {
+div.column33 {
 	width: 33%;
 }
 
-div.col67 {
+div.column67 {
 	width: 67%;
 }
 
-div.col25{
+div.column25{
 	width: 25%;
 }
 
-div.col75 {
+div.column75 {
 	width: 75%;
 }
 
-div.col20 {
+div.column20 {
 	width: 20%;
 }
 
-div.col40 {
+div.column40 {
 	width: 40%;
 }
 
-div.col60 {
+div.column60 {
 	width: 60%;
 }
 
-div.col80 {
+div.column80 {
 	width: 80%;
 }
 
