@@ -98,11 +98,12 @@ ul#topics li img {
 	margin-right: auto;
 }
 
-/*page 250, number 14 */
-
 
 /* HR Styles */
 
+hr {
+	width: 50%;
+}
 
 
 
