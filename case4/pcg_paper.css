@@ -1,4 +1,4 @@
-/@charset "utf-8";
+@charset "utf-8";
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -15,14 +15,81 @@
 */
 
 /* Main Styles */
+html {
+    background-color: rgb(186, 186, 186);
+}
 
+body {
+    background-color: rgb(118, 129, 147);
+    min-width: 640px;
+    max-width: 960px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Image Styles*/
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+    
+article > img {
+    display: block;
+    float: left;
+   margin-right: 20px;
+}
 
 
 /*Link 1 Styles */
-
+aside > nav > ul > li > a { 
+    list-style: none; 
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+    list-style-image: none;
+}
 
 
 /*Article Styles*/
+p {
+    display: block;
+    position: relative;
+    font-size: 0.9em;
+    text-align: left;
+   
+}
+
+h1 {
+    text-align: center;
+}
+    
+article#second {
+    
+}
+
+article {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+article::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/*Link 2 Styles*/
 
 
-/*Link 2 Styles
+
+
+
+
+/*Footer Styles*/
+footer {
+    background-color: rgb(71, 77, 86);
+    color: white;
+    text-align: center;
+}
