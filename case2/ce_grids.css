@@ -5,8 +5,8 @@
    Case Problem 2
    
    Style Sheet for Grids used in the Costume Expressions Front Page
-   Author: Brett F and Lane D
-   Date:   10/9/2018
+   Author: Connor G and Peter C
+   Date:   10/16/2018
    
    Filename: ce_grids.css
 
@@ -14,14 +14,58 @@
 
 
 /* Grid Rows Styles */
-
-
+	div class="Row"{
+		width: 100%;
+		margin-left: clear;
+		margin-right: clear;
+		content: "";
+	}
 
 
 /* Grid Columns Styles */
-
+	div[class^="column"] {
+		float;left;
+	}	
+	div.column100 {
+		width:100%;
+	}	
+	div.column50 {
+		width:50%;
+	}	
+	div.column33 {
+		width:33%;
+	}	
+	div.column67 {
+		width:67%;
+	}	
+	div.column25 {
+		width:25%;
+	}	
+	div.column75 {
+		width:75%;
+	}	
+	div.column20{
+		width:20%;
+	}	
+	div.column40 {
+		width:40%;
+	}	
+	div.column60 {
+		width:60%;
+	}	
+	div.column80 {
+		width:80%;
+	}	
 
 
 
 /* Grid Spacing Styles */
+	div.container,column,row,cell { 
+		box-sizing: border-box;
+	}	
+	
+
+
+
+
 

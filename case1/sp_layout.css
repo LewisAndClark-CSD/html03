@@ -33,7 +33,7 @@
 	}
 	
 /* Row Styles */
-	.ro::after {
+	.ro:: after {
 		clear: both;
 		content: "";
 		display: table;
