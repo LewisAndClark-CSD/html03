@@ -14,17 +14,20 @@
 
 
 /* Grid Rows Styles */
-	div class="Row"{
+	div.row{
 		width: 100%;
-		margin-left: clear;
-		margin-right: clear;
-		content: "";
+		clear: both;
 	}
+	.row::after {
+		clear: both;
+		content: "";
+		display: table;
+	}	
 
 
 /* Grid Columns Styles */
 	div[class^="column"] {
-		float;left;
+		float:left;
 	}	
 	div.column100 {
 		width:100%;
@@ -60,7 +63,9 @@
 
 
 /* Grid Spacing Styles */
-	div.container,column,row,cell { 
+	div.container, div.row, div[class^="column"], div.cell, div.cell > a {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 	}	
 	
