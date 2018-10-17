@@ -40,30 +40,49 @@ article > img {
     display: block;
     float: left;
    margin-right: 20px;
+   width: 12%;
 }
 
 
-/*Link 1 Styles */
+/*Link Styles */
 aside > nav > ul > li > a { 
-    list-style: none; 
     text-decoration: none;
     margin-right: auto;
     margin-left: auto;
-    list-style-image: none;
+    display: table;
+    color: white;
 }
 
+ul {
+    list-style-type:none;
+    text-decoration:none;
+}
 
+ul#secondLink {
+    float: right;
+   
+} 
+
+ul#firstLink {
+    text-align: left;
+}
 /*Article Styles*/
 p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     display: block;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1.0em;
     text-align: left;
-   
+}
+
+div.w3-containerw3-white {
+    background-color: white;
 }
 
 h1 {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
     
 article#second {
@@ -73,6 +92,7 @@ article#second {
 article {
     padding-right: 50px;
     padding-left: 50px;
+    clear:both;
 }
 
 article::after {
@@ -80,13 +100,27 @@ article::after {
     content: "";
     display: table;
 }
-/*Link 2 Styles*/
 
+header {
+    clear:both;
+}
 
+ul#firstLink > li {
+    float: left;
+    display: block;
+    font-size: 1.0em;
+    padding-left: 2px;
+    padding-right: 2px;
+}
 
-
-
-
+ul#secondLink > li {
+    float: left;
+    display: block;
+    font-size: 1.0em;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+    
 /*Footer Styles*/
 footer {
     background-color: rgb(71, 77, 86);
