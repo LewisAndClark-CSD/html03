@@ -1,1 +1,19 @@
 @charset "utf-8";
+
+html, body, header, div, h2, nav {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+nav ul {
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+}

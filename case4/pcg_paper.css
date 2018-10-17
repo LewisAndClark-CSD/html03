@@ -19,14 +19,97 @@
 
 /* Body Styles */
 html {
-
+  background-color: rgb(237, 234, 199);
 }
 
 body {
   max-width: 960px;
   min-width: 640px;
   width: 100%;
-  background-color: rgb(255, 254, 249);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 220, 186);
+  border-width: 1px;
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container#secondColumn {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* Paragraph Styles */
+body div p#lastP img {
+  text-align: right;
+  position: absolute;
 }
 
 /* Navigation Styles */
+nav {
+  width: 100%;
+}
+
+nav ul a li {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5px;
+  padding-right: 8px;
+  width: 90%;
+  background-color: rgb(183, 210, 255);
+  transition: 0.3s;
+  text-align: center;
+}
+
+nav ul a li:hover {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 10px;
+  width: 90%;
+  background-color: rgb(183, 235, 255);
+  transition: 0.3s;
+}
+
+li {
+  text-align: left;
+}
+
+nav#rightNav ul a li {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  font-size: 1.2em;
+}
+
+nav h2 {
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: magenta;
+}
