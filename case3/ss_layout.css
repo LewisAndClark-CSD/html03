@@ -52,6 +52,8 @@ div#battleMap {
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+
 }
 
 img#mapImage {
@@ -94,6 +96,11 @@ a#marker6{
 	left: 544px;
 }
 /* Map Information Styles */
-
+div.mapInfo {
+	display: none;
+}
+a.battleMarkers:hover + div.mapInfo {
+	display: block;
+}
 
 
