@@ -13,22 +13,56 @@
 
 /* Page Body Styles */
 
-
+body {
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Image Styles */
 
-
+img {
+    display: block;
+    width: 100%;
+}
 
 /* Horizontal Navigation Styles */
 
+nav.horizontal li {
+    display: block;
+    width: 16.66%;
+    float: left;
+}
 
+nav.horizontal a {
+    display: block;
+    text-align: center;
+}
 
 /* Row Styles */
 
+div.newRow {
+    width: 100%;
+    clear: both;
+}
 
-
+div.newRow::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 /* Column Styles */
+
+div.col- {
+    float: left;
+    padding: 2%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 
 
