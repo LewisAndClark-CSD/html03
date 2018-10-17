@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* Grid Rows Styles */
+div.row {
+  clear: both;
+  width: 100%;
+}
+
+div.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Grid Columns Styles */
+div[class^="col-"], div[class*=" col-"] {
+  float: left;
+}
+
+div.col-100 {width: 100%;}
+div.col-66_67 {width: 66.67%;}
+div.col-33_3 {width: 33.33%;}
+div.col-13_15 {width: 13.15%;}
+
+/* Grid Spacing Styles */
+div.container, div.row, div[class^="col-"] {
+  box-sizing: border-box;
+}
