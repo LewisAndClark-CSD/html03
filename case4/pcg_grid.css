@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* Grid Rows Styles */
+
+/* Grid Columns Styles */
+
+
+[class^="col-"], [class*=" col-"] {
+  float: left;
+}
+
+div.container#secondColumn {
+  width: 68%;
+}
+
+.leftNav, #secondColumn, .rightNav {
+  display: inline-block;
+}
+
+#rightNav {
+  float: right;
+}
+
+.col-100 {width: 100%;}
+.col-66_67 {width: 66.67%;}
+.col-33_3 {width: 33.33%;}
+.col-13_15 {width: 13.15%;}
+.col-18_42 {width: 18.42%;}
+
+/* Grid Spacing Styles */
+div.container, div[class^="col-"] {
+  box-sizing: border-box;
+}
