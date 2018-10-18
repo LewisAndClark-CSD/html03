@@ -1,19 +1,19 @@
   
 Home Page
-News
-Local
-State
-National
-International
-Sports
-Weather 
 
-Classifieds
-For Sale
-Wanted
-Employment
-Real Estate
-Personal 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 Tourism
 Attractions
@@ -23,3 +23,23 @@ Camping
 
 Subscriptions
 Contact Us 
+
+
+
+         <ul>
+            <li><a href="#">Classifieds</a></li>  
+            <li><a href="#">For Sale</a></li>
+            <li><a href="#">Wanted</a></li>
+            <li><a href="#">Employment</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Personal</a></li>           
+         </ul>   
+         <ul>
+            <li><a href="#">Bailey's Harbor</a></li>
+            <li><a href="#">Lighthouse Tour</a></li>  
+            <li><a href="#">Dept. of Tourism</a></li>
+            <li><a href="#">Boating</a></li>
+            <li><a href="#">Links</a></li>           
+         </ul>   
+      </nav>
+      
