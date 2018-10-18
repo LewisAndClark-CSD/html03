@@ -16,22 +16,59 @@
 
 /*Window and Body Styles*/
 	html{
-		background-color:white;
+		background-color:hsl(60,20%,50%);
 		}
 	body{
 		background-color:hsl(30,50%,70%);
 		font-family: Verdana, Geneva, Arial,sans-serif;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		max-width: 960px;
+		min-width: 640px;
+		position: relative;
 	}
-
+	nav > ul > li > a:link, nav > ul > li > a:visited {
+		text-decoration: none ;
+		font-size: 0.9em;
+		color: rgb(0, 102, 102);
+		
+	}
+	nav > ul > li > a:link, nav > ul > li > a:active {
+		text-decoration: none;
+		font-size: 0.9em;
+		color: rgb(51, 153, 102);
+	}	
 
 /*Body Header Styles*/
+	body > header > img{
+		display:block;
+		width :100%;
+	}
+	body > header > nav.horizontal li{
+		width:20%;
+	}
+	
+/*Horizontal Navigation Styles*/
+	nav.horizontal li{
+		display:block;
+		float:left;
+	}
+	nav.horizontal a {
+		display:block;
+		text-align:center;
+	}
 
 
 
 
 
 /*Article Styles*/
-
+	article{
+		clear:both;
+	}
 
 
 
