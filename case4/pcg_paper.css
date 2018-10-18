@@ -1,4 +1,4 @@
-/@charset "utf-8";
+@charset "utf-8";
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -6,11 +6,46 @@
    Case Problem 4
 
    Park City Gazette Style Sheet
-   Author: 
-   Date:   
+   Author: Travis A/Austin A
+   Date: 10/17/18
 
-   Filename:         pcg_paper.css
+   Filename: pcg_paper.css
    Supporting Files: 
 
 */
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+    background-color: gray;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: rgb(255, 204, 255);
+}
+    
+header.link {
+    text-decoration: none;
+}
+
+a.link {
+    list-style: none;
+    text-decoration: none;
+}
+
+a.visited {
+    list-style: none;
+    text-decoration: none;
+}
+
+a.active{
+    list-style: none;
+    text-decoration: none;
+}
