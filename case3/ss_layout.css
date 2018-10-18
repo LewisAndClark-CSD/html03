@@ -43,13 +43,16 @@ aside {
 }
 
 /* Map Styles */
-div.battleMap {
+div#battleMap {
+	position:relative;
 	width: 688px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;	
 }
 
-img.mapImage {
+img#mapImage {
 	display: block;
 	width: 100%;
 }
@@ -85,6 +88,16 @@ a.battleMarkers {
 }
 
 /* Map Information Styles */
+div.mapInfo {
+	display: none;
+}
 
+a.battleMap:hover {
+	display: block;
+}
+
+div.mapInfo {
+	display: block;
+}
 
 
