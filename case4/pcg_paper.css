@@ -13,4 +13,42 @@
    Supporting Files: 
 
 */
+html {
+	clear:both;
+}
+header > img {
+	width: 75%;
+	float:left;
+	display:block;
+}
+	
+header > ul {
+	float: left;
+	list-style-type:none;
+	display: block;
+}
+
+div#story1 {
+	width: 33.33%;
+
+	display:block;
+}
+
+div#story2 {
+	width: 33.33%;
+	float:left;
+	display:block;
+}
+
+div#story3 {
+	width: 33.33%;
+	float:left;
+	display:block;
+}
+
+div#story4 {
+	width:33.33%;
+
+	display:block;
+}
 
