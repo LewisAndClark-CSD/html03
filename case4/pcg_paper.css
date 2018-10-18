@@ -18,6 +18,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%
 }
 
 html {
@@ -31,21 +32,52 @@ body {
     background-color: rgb(255, 204, 255);
 }
     
-header.link {
-    text-decoration: none;
-}
-
-a.link {
+ul.link {
     list-style: none;
     text-decoration: none;
+    color: black;
+    float: left;
 }
 
-a.visited {
+ul.link2 {
     list-style: none;
     text-decoration: none;
+    color: black;
+    float: right;
 }
 
-a.active{
+ul.visited {
     list-style: none;
     text-decoration: none;
+    color: blue;
+}
+
+ul.active{
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+}
+
+ul.hover{
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    clear: both;
 }
