@@ -19,7 +19,7 @@
 
 /* Body Styles */
 html {
-  background-color: rgb(237, 234, 199);
+  background-color: rgb(252, 244, 222);
 }
 
 body {
@@ -50,6 +50,11 @@ header img {
 div.container#secondColumn {
   padding-left: 1%;
   padding-right: 1%;
+}
+
+div img {
+  position: relative;
+  top: -70px; left: 500px;
 }
 
 /* Paragraph Styles */
@@ -91,8 +96,16 @@ nav#rightNav ul a li {
   text-align: right;
 }
 
-a {
+a:link, a:visited {
+   text-decoration: none;
+   color: black;
+   transition: 0.1s;
+}
+
+a:hover, a:active {
   text-decoration: none;
+  color: brown;
+  transition: 0.1s;
 }
 
 /* Heading Styles */
@@ -111,5 +124,5 @@ footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: magenta;
+  background-color: rgb(140, 98, 50);
 }
