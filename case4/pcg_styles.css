@@ -5,7 +5,9 @@
    Tutorial 3
    Case Problem 3
    
-   Typographical Style Sheet for A Soldier's Scrapbook
+   Typographical Style Sheet for Park City Gazette
+   Author: Liz and Rob 
+   Date:   10/18/18
    
    Filename: ss_styles.css
 
@@ -30,6 +32,7 @@ li, main, nav, ol, p, section, span, ul {
 
 html {
    background-color: white;
+   
 }
 
 
@@ -114,26 +117,22 @@ body > aside {
 }
 
 body > aside > h1 {
-   font-size: 1.5em;
-   margin: 20px;
-}
-
-aside p {
-   line-height: 1.4em;
+   font-size: 1.6em;
    margin: 20px;
 }
 
 
-/* Interactive Map Styles */
 
-div.mapInfo {
-   background-color: rgb(144, 24, 26);
-   color: rgb(214, 192, 144);
+/* Interactive Story Styles */
+
+div.storyInfo {
+   background-color: white;
+   color: black;
    margin-top: 20px;
    padding-bottom: 20px;
 }
 
-div.mapInfo h2 {
+div.storyInfo h2 {
    background-color: rgb(96, 87, 70);
    font-size: 22px;
    font-weight: normal;

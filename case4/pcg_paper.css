@@ -12,25 +12,175 @@
    Filename:         pcg_paper.css
    Supporting Files: 
 
-*/
-
-
 
 /* Article Styles */
-P {
-	float: left;
-	display: block;
+html {
+	height: 100%;
+	min-width: 640px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
-	
-/*Aside Styles */
+
+article {
+	float: left;
+	width: 350px;
+	height: 700px;
+	line-height: 32px;
+}
+
+/* Aside Styles */
 
 aside {
-	width: 468px;
-	float: right;
+	width: 768px;
+	float: left;
+}
+
+/* Interactive Story Styles */
+
+a.storyLinks {
+	position: relative;
+}
+#story1 {
+	top: 220px;
+	left: 340px;
+}
+#story2 {
+	top: 194px;
+	left: 358px;
+}
+#story3 {
+	top: 202px;
+	left: 400px;
+}
+#story4{
+	top: 217px;
+	left: 452px;
+}
+
+/* Story Information Styles */
+
+div.storyInfo {
+display: none;
+}
+
+a.storyLinks:hover + div.storyInfo {
 	display: block;
 }
 
-/*Nav Stories Inside Styles */
+
+
+
+
+
+/* STYLE */
+
+/* General Styles */
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+html {
+   background-color: white;
+}
+
+/* Body Styles */
+
+body {
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(213, 191, 154);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+   font-size: 16px;   
+   width: 1152px;
+}
+
+body > header > img {
+   display: block;
+   width: 100%;
+}
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+   background-color: rgb(96, 87, 70);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 192px;
+}
+
+nav.horizontal a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+   
+nav.horizontal a:link, nav.horizontal:visited {
+   color: rgb(216, 194, 157);
+}
+
+nav.horizontal a:hover, nav.horizontal:active {
+   background-color: white;
+}
+
 
 /* Footer Styles */
 
+body > footer {
+   background-color: rgb(62, 56, 45);
+   clear: both;
+   color: rgb(216, 194, 157);
+   font-size: 12px;
+   line-height: 24px;
+   text-align: center;
+}
+
+/* Article Styles */
+
+body > article {
+   background-color: rgb(182, 163, 132);
+}
+
+body > article > h1 {
+   font-size: 1.5em;
+   margin: 20px;
+}
+
+/* Aside Styles */
+
+
+body > aside > h1 {
+   font-size: 1.6em;
+   margin: 20px;
+}
+
+/* Interactive Story Styles */
+
+div.storyInfo {
+   background-color: white;
+   color: black;
+   margin-top: 20px;
+   padding-bottom: 20px;
+}
+
+div.storyInfo h2 {
+   background-color: rgb(96, 87, 70);
+   font-size: 22px;
+   font-weight: normal;
+   padding: 10px 20px;
+}

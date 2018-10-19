@@ -5,9 +5,9 @@
    Tutorial 3
    Case Problem 3
    
-   Layout Style Sheet for A Soldier's Scrapbook
+   Park City Gazette Layout Sheet
    Author: Liz and Rob 
-   Date:   10/17/18
+   Date:   10/18/18
    
    Filename: ss_layout.css
 
@@ -15,27 +15,17 @@
 
 
 /* Article Styles */
+html {
+	height: 100%;
+	min-width: 640px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 article {
 	float: left;
 	width: 384px;
-}
-
-
-/* First Line and Drop Cap Styles */
-
-article p:first-of-type::first-line {
-	font-size: 1.25em;
-	font-variant: small-caps;
-}
-
-article p:first-of-type:first-letter {
-	font-size: 4em;
-	font-family: serif;
-	float: left;
-	line-height: 0.8em;
-	margin-right: 5px;
-	margin-bottom: 5px;
 }
 
 /* Aside Styles */
@@ -45,58 +35,34 @@ aside {
 	float: left;
 }
 
-/* Map Styles */
+/* Interactive Story Styles */
 
-div#battleMap {
-	width: 688px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
+a.storyLinks {
 	position: relative;
 }
-
-img#mapImage {
-	display: block;
-	width: 100%;
-}
-
-/* Interactive Map Styles */
-
-a.battleMarkers {
-	position: absolute;
-}
-#marker1 {
+#story1 {
 	top: 220px;
 	left: 340px;
 }
-#marker2 {
+#story2 {
 	top: 194px;
 	left: 358px;
 }
-#marker3 {
+#story3 {
 	top: 202px;
 	left: 400px;
 }
-#marker4{
+#story4{
 	top: 217px;
 	left: 452px;
 }
-#marker5 {
-	top: 229px;
-	left: 498px;
-}
-#marker6 {
-	top: 246px;
-	left: 544px;
-}
 
-/* Map Information Styles */
+/* Story Information Styles */
 
-div.mapInfo {
+div.storyInfo {
 display: none;
 }
 
-a.battleMarkers:hover + div.mapInfo {
+a.storyLinks:hover + div.storyInfo {
 	display: block;
 }
