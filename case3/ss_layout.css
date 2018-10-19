@@ -99,7 +99,7 @@
 
 
 /* Map Information Styles */
-div.mapinfo {
+div.mapInfo {
 	display: none;
 }
 a.battleMarkers:hover +div.mapInfo {
