@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -14,41 +14,54 @@
 
 */
 html {
-	clear:both;
+	background-color:grey;
 }
-header > img {
-	width: 75%;
-	float:left;
+header {
 	display:block;
 }
-	
+
+header img {
+	display: inline-block;
+	width:100%;
+}
+
+body {
+	width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: rgb(255, 232, 183);
+	position: relative;
+	min-width: 1180px;
+	max-width: 1350px;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+header > ul > li {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:5px;
+	padding-top:5px;
+	display: inline-block;
+	text-align:center;
+}
+
 header > ul {
-	float: left;
-	list-style-type:none;
-	display: block;
+	background-color: rgb(114, 107, 92);
+	text-align: center;
+	margin-top:-5px;
 }
 
-div#story1 {
-	width: 33.33%;
-
-	display:block;
-}
-
-div#story2 {
-	width: 33.33%;
+article img {
 	float:left;
-	display:block;
 }
 
-div#story3 {
-	width: 33.33%;
-	float:left;
-	display:block;
+article {
+	padding-left: 30px;
+	padding-right: 40px;
+	padding-top: 50px;
 }
-
-div#story4 {
-	width:33.33%;
-
-	display:block;
-}
-
